@@ -1,0 +1,13 @@
+#character {
+    position: relative;
+    width: 200px;  /* Width of the container matches the base character image width */
+    height: 400px; /* Height matches the base character image height */
+}
+
+#character img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;  /* Ensures the images fill the container */
+    height: auto;
+}

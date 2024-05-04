@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Dress-Up Game</title>
+</head>
+<body>
+    <h1>Dress-Up Game</h1>
+    <div id="character">
+        <!-- Base character image should not change -->
+        <img src="images/character_base.png" id="base-image" alt="Base Character">
+        
+        <!-- Clothes image, initially empty and will be changed via buttons -->
+        <img src="images/transparent.png" id="clothes-image" alt="Clothes Image">
+    </div>
+    <div id="clothes">
+        <!-- Buttons for changing clothes -->
+        <button onclick="changeClothes('images/bleu.png')">Blue Outfit</button>
+        <button onclick="changeClothes('images/rouge.png')">Red Outfit</button>
+        <button onclick="changeClothes('images/violet.png')">Purple Outfit</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
